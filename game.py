@@ -1,4 +1,4 @@
-# Welcome messag and introduction
+# Welcome message and introduction
 '''
 Adventure Game
 Author: Charchit Pokhrel
