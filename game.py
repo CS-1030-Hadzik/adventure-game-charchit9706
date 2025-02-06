@@ -36,6 +36,11 @@ print(starting_area)
 #Ask the player for their first decision
 decision = input("Do you wish to take the path(yes or no): ").lower()
 # print(decision)
+while decision not in['yes', 'no']:
+    print("Invalid choice you stand still, unsure of what to do.")
+    decision = input("Do you wish to take the path (yes or no): ")
+    # print("Confused, you stand still, unsure of what to do.")
+    #Option for the ser to make new decision
 
 
 #Respond based on the player's 
@@ -45,5 +50,7 @@ if decision == 'yes':
 
 elif decision == 'no':
     print(f"{player_name}, you decide to wait. Perhaps courage will fnd you later.")
-else:
-    print("Confused, you stand still, unsure of what to do.")
+#Invalid rewsponse loop until they give a valid 
+
+# else:
+#     print("Confused, you stand still, unsure of what to do.")
